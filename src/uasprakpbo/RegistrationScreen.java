@@ -53,7 +53,7 @@ public class RegistrationScreen extends JFrame implements ActionListener, ItemLi
         label_Username.setBounds(80, 70, 200, 30);
         
         // array of string containing cities
-        String s1[] = { "Pengguna","Admin" };
+        String s1[] = { "Private Account","Creator Account","Business Account"};
  
         // create checkbox
         combobox = new JComboBox(s1);
@@ -66,35 +66,35 @@ public class RegistrationScreen extends JFrame implements ActionListener, ItemLi
         label_combobox2 = new JLabel("Pengguna selected");
 
         label_Nickname = new JLabel("Nama ");
-        label_Nickname.setBounds(80, 110, 200, 30);
+        label_Nickname.setBounds(80, 150, 200, 30);
 
         TF_Nickname = new JTextField(Nickname);
-        TF_Nickname.setBounds(300, 110, 200, 30);
+        TF_Nickname.setBounds(300, 150, 200, 30);
         TF_Nickname.setColumns(20);
 
         label_email = new JLabel("Email ");
-        label_email.setBounds(80, 150, 200, 30);
+        label_email.setBounds(80, 190, 200, 30);
 
         TF_Email = new JTextField(Email);
-        TF_Email.setBounds(300, 150, 200, 30);
+        TF_Email.setBounds(300, 190, 200, 30);
 
         label_Password = new JLabel("Password ");
-        label_Password.setBounds(80, 190, 200, 30);
+        label_Password.setBounds(80, 240, 200, 30);
 
         passwordfield = new JPasswordField(20);
-        passwordfield.setBounds(300, 190, 200, 30);
+        passwordfield.setBounds(300, 240, 200, 30);
         passwordfield.setColumns(20);
         
         chooseFile = new JButton("Choose File");
-        chooseFile.setBounds(240, 250, 120, 30);
+        chooseFile.setBounds(240, 260, 120, 30);
         chooseFile.addActionListener(this);
 
         button_Register = new JButton("Register");
-        button_Register.setBounds(270, 300, 100, 30);
+        button_Register.setBounds(240, 300, 100, 30);
         button_Register.addActionListener(this);
 
         button_Login = new JButton("Back To Main Menu Screen");
-        button_Login.setBounds(125, 300, 350, 30);
+        button_Login.setBounds(125, 350, 350, 30);
         button_Login.addActionListener(this);
         button_Login.setFocusPainted(false);
         button_Login.setBorderPainted(false);

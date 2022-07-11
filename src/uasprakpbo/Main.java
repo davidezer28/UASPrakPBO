@@ -20,5 +20,4 @@ public class Main {
         DummyDataManager.getInstance().setDummyData(data);
         MainMenuScreen mainMenuScreen = new MainMenuScreen();
     }
-    
 }
